@@ -1,0 +1,71 @@
+/* Estilo CSS personalizado (style.css) */
+.bg-color {
+    background-color: black; /* Define o fundo como preto */
+    background-image: url('./assets/background.svg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem no fundo */
+    background-repeat: no-repeat; /* Evita que a imagem seja repetida */
+}
+
+.coluna, .bg-color {
+    width: 65%; 
+    height: 100vh; 
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+form h2 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.forms {
+    width: 35%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    font-size: 14px;
+}
+
+.forms-styles form h2 {
+    color: linear-gradient(150deg, #26A6D1 0%, #212634 100.09%);
+    font-family: Comfortaa;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 45.833% */
+    letter-spacing: -1.92px;
+}
+
+.logo {
+    color: #26A6D1;
+    font-family: Comfortaa;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 45.833% */
+    letter-spacing: -1.92px;
+
+    margin-top: 250px;
+}
+
+.opacity {
+    opacity: 0.8;
+}
+
+.button {
+    width: 100%;
+
+    background: #26A6D1;
+    color: #EBEBEB;
+}
+
+.button:hover {
+    color: #EBEBEB;
+    background: #164656;
+}
